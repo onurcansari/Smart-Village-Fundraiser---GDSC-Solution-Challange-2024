@@ -1,0 +1,329 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+}
+
+
+button {
+  background-color: #008cba;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+  max-height: 500px; 
+  border-radius: 61px;/* Maksimum yüksekliği sınırlayabilirsiniz */
+}
+
+
+.donate-image {
+  width: 100%;
+  height: auto;
+   /* Bağış bölümündeki görsel için */
+}
+.info-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.info-box:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.info-image {
+  flex: 1;
+  max-width: 50%;
+  height: auto;
+  margin: 0 20px;
+}
+
+.info-content {
+  flex: 1;
+  max-width: 50%;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.info-image {
+  width: 40%;
+  max-width: 200px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.water-management {
+  flex: 1;
+}
+
+.water-management h3 {
+  color: #333;
+  margin-top: 0;
+}
+
+.water-management p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Genel bölüm ve başlık stilleri */
+section#villages {
+  padding: 20px;
+}
+
+section#villages h2 {
+  text-align: center;
+  color: #333;
+}
+.energy-management h3 {
+  color: #333;
+}
+
+.energy-management p {
+  color: #666;
+  line-height: 1.6;
+}
+.sustainable-food h3 {
+  color: #333;
+}
+
+.sustainable-food p {
+  color: #666;
+  line-height: 1.6;
+}
+.resilient-housing h3 {
+  color: #333;
+}
+
+.resilient-housing p {
+  color: #666;
+  line-height: 1.6;
+}
+.solar-energy h3 {
+  color: #333;
+}
+
+.solar-energy p {
+  color: #666;
+  line-height: 1.6;
+}
+header {
+  border-radius: 8px;
+  background-size: cover;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+nav ul li a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.navigation-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button {
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6); /* Hafif saydam siyah arka plan */
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+#about {
+  background-color: #f9f9f9; /* Hafif arka plan rengi */
+  color: #333; /* Metin rengi */
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+#about h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+#about p {
+  text-align: justify;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+#donate {
+  background-color: #fff; /* Arka plan rengi */
+  color: #333; /* Metin rengi */
+  padding: 40px 0;
+  text-align: center; /* İçeriği merkezle */
+}
+
+#donate .container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+#donate h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#donate p {
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+
+#donateButton {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Yeşil arka plan */
+  color: #ffffff; /* Beyaz metin */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Fare imlecini buton üzerine getirdiğinde el simgesi */
+  transition: background-color 0.3s ease; /* Geçiş efekti */
+}
+
+#donateButton:hover {
+  background-color: #45a049; /* Butona hover yapıldığında koyulaşan yeşil */
+}
+#contact {
+  background-color: #f9f9f9; /* Arka plan rengi */
+  color: #333; /* Metin rengi */
+  padding: 40px 0;
+  text-align: center; /* İçeriği merkezle */
+}
+
+#contact .container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+#contactForm textarea {
+  height: 150px; /* Textarea yüksekliği */
+}
+
+#contactForm button[type="submit"] {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: #007bff; /* Mavi arka plan */
+  color: #ffffff; /* Beyaz metin */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Fare imlecini buton üzerine getirdiğinde el simgesi */
+  transition: background-color 0.3s ease; /* Geçiş efekti */
+}
+
+#contactForm button[type="submit"]:hover {
+  background-color: #0056b3; /* Butona hover yapıldığında koyulaşan mavi */
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  transition: transform 0.3s ease;
+  z-index: 9999; /* Diğer içeriklerin üzerine çıkar */
+  transform: translateY(100%);
+}
+
+#footerToggle {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 120px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none; /* Focus olduğunda kenarlık görünmemesi için */
+}
+
+.header-content h1 {
+  color: #030303c4;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+::-webkit-scrollbar {
+  display: none; /* Chrome, Safari ve Opera için */
+}
