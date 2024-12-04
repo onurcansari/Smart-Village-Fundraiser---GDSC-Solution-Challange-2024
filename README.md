@@ -13,17 +13,6 @@ Smart Village Fundraiser is dedicated to improving the lives of rural communitie
 - **Responsive Design**: Ensures compatibility and usability across various devices and screen sizes.
 - **Dynamic Content**: Presents information about smart villages, projects, and donation progress dynamically.
 
-## How to Contribute
-
-If you would like to contribute to Smart Village Fundraiser, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/contribution`).
-3. Make your changes.
-4. Commit your changes (`git commit -am 'Add new feature'`).
-5. Push to the branch (`git push origin feature/contribution`).
-6. Create a new Pull Request.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
